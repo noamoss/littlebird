@@ -136,6 +136,7 @@ abstract class ResourceEntity extends Resource {
       'callback' => array($this, 'getEntitySelf'),
     );
 
+
     return $public_fields;
   }
 

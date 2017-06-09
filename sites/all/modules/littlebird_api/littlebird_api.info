@@ -1,0 +1,6 @@
+name = RESTful api for little bird
+description = contains the resources for the little bird RESTful api
+core = 7.x
+dependencies[] = restful
+
+registry_autoload[] = PSR-4
