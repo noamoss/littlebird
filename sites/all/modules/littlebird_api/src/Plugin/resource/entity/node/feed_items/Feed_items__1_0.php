@@ -1,28 +1,28 @@
 <?php
 /**
  * @file
- * Contains \Drupal\littlebird_api\Plugin\resource\entity\node\feeds\Feeds__1_0
+ * Contains \Drupal\littlebird_api\Plugin\resource\entity\node\feeds\Feed_items__1_0
 */
 
-namespace Drupal\littlebird_api\Plugin\resource\entity\node\feeds;
+namespace Drupal\littlebird_api\Plugin\resource\entity\node\feed_items;
 
 use Drupal\restful\Plugin\resource\ResourceEntity;
 use Drupal\restful\Plugin\resource\ResourceNode;
 
 /**
-* Class feeds__1_0
-* @package Druapal\littlebird_api\Plugin\resource\entity\node\feeds {
+* Class feed_items__1_0
+* @package Druapal\littlebird_api\Plugin\resource\entity\node\feed_items {
 * @Resource(
-*   name = "feeds:1.0",
-*   resource = "feeds",
-*   label = "Feeds",
-*   description = "Export the feeds with all authentication providers.",
+*   name = "feed_items:1.0",
+*   resource = "feed_items",
+*   label = "Items",
+*   description = "Export the feed items with all authentication providers.",
 *   authenticationTypes = TRUE,
 *   authenticationOptional = TRUE,
 *   dataProvider = {
 *     "entityType": "node",
 *     "bundles": {
-*       "feed",
+*       "feed_item",
 *     },
 *   },
 *   majorVersion = 1,
@@ -30,7 +30,8 @@ use Drupal\restful\Plugin\resource\ResourceNode;
 * )
 */
 
-class Feeds__1_0 extends ResourceNode {
+
+class Feed_Items__1_0 extends ResourceNode {
   /**
   * {@inheritdoc}
   */
@@ -42,6 +43,6 @@ class Feeds__1_0 extends ResourceNode {
     $public_fields['name'] = $public_fields['label'];
     unset($public_fields['label']);
     return $public_fields;
-
+print("dfdd");
 }
 }
