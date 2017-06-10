@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6a66c034-66fd-42d8-bf51-4a874f0b1e40" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/littlebird_api/littlebird_api.module" afterPath="$PROJECT_DIR$/sites/all/modules/littlebird_api/littlebird_api.module" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/littlebird_api/src/Plugin/resource/entity/node/feed_items/Feed_items__1_0.php" afterPath="$PROJECT_DIR$/sites/all/modules/littlebird_api/src/Plugin/resource/entity/node/feed_items/Feed_items__1_0.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/littlebird_api/src/Plugin/resource/entity/node/feeds/Feeds__1_0.php" afterPath="$PROJECT_DIR$/sites/all/modules/littlebird_api/src/Plugin/resource/entity/node/feeds/Feeds__1_0.php" />
-    </list>
+    <list default="true" id="6a66c034-66fd-42d8-bf51-4a874f0b1e40" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -375,12 +370,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1497088881925</updated>
-      <workItem from="1497088884239" duration="3903000" />
+      <workItem from="1497088884239" duration="4504000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3903000" />
+    <option name="totallyTimeSpent" value="4504000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="0" width="1370" height="741" extended-state="6" />
