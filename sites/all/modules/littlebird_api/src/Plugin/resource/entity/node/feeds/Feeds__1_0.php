@@ -38,9 +38,14 @@ class Feeds__1_0 extends ResourceNode {
   protected function publicFields() {
     $public_fields = parent::publicFields();
 
-    // Rename label to nane.
+    // Rename label to name.
+    $public_fields['id']['methods'] = array();
     $public_fields['name'] = $public_fields['label'];
-    unset($public_fields['label']);
+    // update date.
+    $public_fields['last update'] = array(
+      'property' => 'changed',
+    );
+
     return $public_fields;
 
 }
